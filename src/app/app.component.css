@@ -1,0 +1,36 @@
+/* .container 
+{
+ width: 700px;
+ height: 200px;
+ background-color: aqua;
+ border-width: 1px;
+ border-style: solid;
+ border: 20px 30px 40px 50px;
+ padding: 25px;
+ margin: 20px;
+}
+.item{
+  width: 100px;
+ height: 100px;
+ background-color: blue;
+ border-color: black;
+ border-width: 10px;
+ border-style: solid;
+ 
+}
+*/
+.container{
+  width: 700px;
+  height: 200px;
+  background-color: aqua;
+  display: flex; 
+  //flex-direction: column;
+  justify-content: space-around;
+  align-items : center ;
+ 
+}
+.item{
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
